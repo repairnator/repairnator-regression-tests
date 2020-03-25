@@ -5,6 +5,8 @@
 set -o pipefail
 set -e
 
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64/
+
 # download the latest version
 curl -Lo repairnator-pipeline.jar "https://search.maven.org/remote_content?g=fr.inria.repairnator&a=repairnator-pipeline&v=LATEST&c=jar-with-dependencies"
 
