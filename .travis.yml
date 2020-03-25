@@ -1,0 +1,6 @@
+language: java
+
+# repairnator runs on Java 8
+install: sudo apt-get -y install openjdk-8-jdk
+
+script: ./regression-tests.sh
