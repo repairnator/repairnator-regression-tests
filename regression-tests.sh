@@ -7,8 +7,8 @@ set -e
 
 export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64/
 
-mvn -version 
-exit
+export MAVEN_HOME=/usr/local/maven-3.6.3
+
 # download the latest version
 curl -Lo repairnator-pipeline.jar "https://search.maven.org/remote_content?g=fr.inria.repairnator&a=repairnator-pipeline&v=LATEST&c=jar-with-dependencies"
 
